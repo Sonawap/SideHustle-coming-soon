@@ -1,0 +1,141 @@
+
+body{ 
+	font-size: 16px; 
+	font-family: 'Open Sans', 
+	sans-serif; width: 100%; 
+	height: 100%; 
+	margin: 0; 
+	font-weight: 400;
+	color: #333; 
+}
+
+
+button{ 
+	outline: 0; 
+	border: 0; 
+	background: none; 
+	cursor: pointer; 
+}
+
+
+
+.center-text{ 
+	text-align: center; 
+} 
+
+.display-table{ 
+	display: table; 
+	height: 100%; 
+	width: 100%; 
+}
+
+.display-table-cell{ 
+	display: table-cell; 
+	vertical-align: middle; 
+}
+
+
+
+.full-height{ 
+	height: 100%; 
+}
+
+.position-static{ 
+	position: static; 
+}
+
+
+.main-area{ 
+	position: relative; height: 100vh;  
+}
+
+
+
+.left-section{ 
+	float: left; 
+	width: 50%; position: relative; 
+}
+
+.logo{ 
+	position: absolute; 
+	top: 40px; 
+	height: 30px; 
+}
+
+.logo img{ 
+	height: 100%; 
+	width: auto; 
+} 
+
+
+.main-content{ 
+	padding: 40px 40px 40px 0; 
+}
+
+.title{ 
+	margin-bottom: 15px; 
+}
+
+.email-input-area{ 
+	margin: 40px 0 20px; 
+	position: relative; 
+	width: 400px; 
+	height: 47px; 
+}
+
+.email-input{ 
+	width: 100%; 
+	position: absolute; 
+	top: 0;
+	bottom: 0; 
+	left: 0; 
+	border-radius: 40px; 
+	border: 0; 
+	outline: 0; 
+	padding: 0 140px 0 25px; 
+	transition: all .2s; 
+	background: #F1F2F3; 
+	box-shadow: inset 0 0 1px rgba(0,0,0,.1); 
+	border: 1px solid transparent; 
+}
+
+.email-input:focus{ 
+	border-color: #49994a; 
+}
+
+
+.submit-btn{ 
+	width: 120px; 
+	text-align: center; 
+	position: absolute; 
+	top: 0; 
+	bottom: 0; 
+	right: 0; 
+	font-size: .9em;
+	border-radius: 0 40px 40px 0; 
+	transition: all .3s; 
+	background: #49994a; 
+	color: #fff; 
+}
+
+.submit-btn:hover{ 
+	background: #5bc75c; 
+}
+
+
+.post-desc{ 
+	color: #999; 
+}
+
+
+.right-section{ 
+	position: absolute; 
+	top: 0; 
+	bottom: 0; 
+	right: 0; 
+	width: 50%; 
+	background-size: cover; 
+	z-index: 1; 
+}
+
+
